@@ -7,8 +7,11 @@
     "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
+    "antd": "^3.1.1",
+    "babel-plugin-styled-components": "^1.4.0",
     "next": "^4.2.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "styled-components": "^2.4.0"
   }
 }
